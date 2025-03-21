@@ -69,7 +69,7 @@ const App = () => {
                 rel="noopener noreferrer"
                 className="text-indigo-600 font-semibold"
               >
-                {shortUrl}
+                {`${BASE_URL}/${shortUrl}`}
               </a>
 
             </p>
